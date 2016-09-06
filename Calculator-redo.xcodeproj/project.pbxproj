@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A78BF1771D7E843A00B1BB86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF1761D7E843A00B1BB86 /* AppDelegate.swift */; };
+		A78BF1791D7E843A00B1BB86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF1781D7E843A00B1BB86 /* ViewController.swift */; };
+		A78BF17C1D7E843A00B1BB86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78BF17A1D7E843A00B1BB86 /* Main.storyboard */; };
+		A78BF17E1D7E843A00B1BB86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78BF17D1D7E843A00B1BB86 /* Assets.xcassets */; };
+		A78BF1811D7E843A00B1BB86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A78BF17F1D7E843A00B1BB86 /* LaunchScreen.storyboard */; };
+		A78BF18C1D7E843B00B1BB86 /* Calculator_redoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF18B1D7E843B00B1BB86 /* Calculator_redoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A78BF1881D7E843B00B1BB86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A78BF16B1D7E843A00B1BB86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A78BF1721D7E843A00B1BB86;
+			remoteInfo = "Calculator-redo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A78BF1731D7E843A00B1BB86 /* Calculator-redo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator-redo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78BF1761D7E843A00B1BB86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A78BF1781D7E843A00B1BB86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A78BF17B1D7E843A00B1BB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A78BF17D1D7E843A00B1BB86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A78BF1801D7E843A00B1BB86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A78BF1821D7E843A00B1BB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A78BF1871D7E843B00B1BB86 /* Calculator-redoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculator-redoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A78BF18B1D7E843B00B1BB86 /* Calculator_redoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_redoTests.swift; sourceTree = "<group>"; };
+		A78BF18D1D7E843B00B1BB86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A78BF1701D7E843A00B1BB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78BF1841D7E843B00B1BB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A78BF16A1D7E843A00B1BB86 = {
+			isa = PBXGroup;
+			children = (
+				A78BF1751D7E843A00B1BB86 /* Calculator-redo */,
+				A78BF18A1D7E843B00B1BB86 /* Calculator-redoTests */,
+				A78BF1741D7E843A00B1BB86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A78BF1741D7E843A00B1BB86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A78BF1731D7E843A00B1BB86 /* Calculator-redo.app */,
+				A78BF1871D7E843B00B1BB86 /* Calculator-redoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A78BF1751D7E843A00B1BB86 /* Calculator-redo */ = {
+			isa = PBXGroup;
+			children = (
+				A78BF1761D7E843A00B1BB86 /* AppDelegate.swift */,
+				A78BF1781D7E843A00B1BB86 /* ViewController.swift */,
+				A78BF17A1D7E843A00B1BB86 /* Main.storyboard */,
+				A78BF17D1D7E843A00B1BB86 /* Assets.xcassets */,
+				A78BF17F1D7E843A00B1BB86 /* LaunchScreen.storyboard */,
+				A78BF1821D7E843A00B1BB86 /* Info.plist */,
+			);
+			path = "Calculator-redo";
+			sourceTree = "<group>";
+		};
+		A78BF18A1D7E843B00B1BB86 /* Calculator-redoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A78BF18B1D7E843B00B1BB86 /* Calculator_redoTests.swift */,
+				A78BF18D1D7E843B00B1BB86 /* Info.plist */,
+			);
+			path = "Calculator-redoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A78BF1721D7E843A00B1BB86 /* Calculator-redo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78BF1901D7E843B00B1BB86 /* Build configuration list for PBXNativeTarget "Calculator-redo" */;
+			buildPhases = (
+				A78BF16F1D7E843A00B1BB86 /* Sources */,
+				A78BF1701D7E843A00B1BB86 /* Frameworks */,
+				A78BF1711D7E843A00B1BB86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calculator-redo";
+			productName = "Calculator-redo";
+			productReference = A78BF1731D7E843A00B1BB86 /* Calculator-redo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A78BF1861D7E843B00B1BB86 /* Calculator-redoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A78BF1931D7E843B00B1BB86 /* Build configuration list for PBXNativeTarget "Calculator-redoTests" */;
+			buildPhases = (
+				A78BF1831D7E843B00B1BB86 /* Sources */,
+				A78BF1841D7E843B00B1BB86 /* Frameworks */,
+				A78BF1851D7E843B00B1BB86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A78BF1891D7E843B00B1BB86 /* PBXTargetDependency */,
+			);
+			name = "Calculator-redoTests";
+			productName = "Calculator-redoTests";
+			productReference = A78BF1871D7E843B00B1BB86 /* Calculator-redoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A78BF16B1D7E843A00B1BB86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Xenia;
+				TargetAttributes = {
+					A78BF1721D7E843A00B1BB86 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A78BF1861D7E843B00B1BB86 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A78BF1721D7E843A00B1BB86;
+					};
+				};
+			};
+			buildConfigurationList = A78BF16E1D7E843A00B1BB86 /* Build configuration list for PBXProject "Calculator-redo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A78BF16A1D7E843A00B1BB86;
+			productRefGroup = A78BF1741D7E843A00B1BB86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A78BF1721D7E843A00B1BB86 /* Calculator-redo */,
+				A78BF1861D7E843B00B1BB86 /* Calculator-redoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A78BF1711D7E843A00B1BB86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78BF1811D7E843A00B1BB86 /* LaunchScreen.storyboard in Resources */,
+				A78BF17E1D7E843A00B1BB86 /* Assets.xcassets in Resources */,
+				A78BF17C1D7E843A00B1BB86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78BF1851D7E843B00B1BB86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A78BF16F1D7E843A00B1BB86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78BF1791D7E843A00B1BB86 /* ViewController.swift in Sources */,
+				A78BF1771D7E843A00B1BB86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A78BF1831D7E843B00B1BB86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A78BF18C1D7E843B00B1BB86 /* Calculator_redoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A78BF1891D7E843B00B1BB86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A78BF1721D7E843A00B1BB86 /* Calculator-redo */;
+			targetProxy = A78BF1881D7E843B00B1BB86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A78BF17A1D7E843A00B1BB86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78BF17B1D7E843A00B1BB86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A78BF17F1D7E843A00B1BB86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A78BF1801D7E843A00B1BB86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A78BF18E1D7E843B00B1BB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A78BF18F1D7E843B00B1BB86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A78BF1911D7E843B00B1BB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Calculator-redo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xenia.Calculator-redo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A78BF1921D7E843B00B1BB86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Calculator-redo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xenia.Calculator-redo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A78BF1941D7E843B00B1BB86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Calculator-redoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xenia.Calculator-redoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator-redo.app/Calculator-redo";
+			};
+			name = Debug;
+		};
+		A78BF1951D7E843B00B1BB86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Calculator-redoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xenia.Calculator-redoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculator-redo.app/Calculator-redo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A78BF16E1D7E843A00B1BB86 /* Build configuration list for PBXProject "Calculator-redo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78BF18E1D7E843B00B1BB86 /* Debug */,
+				A78BF18F1D7E843B00B1BB86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A78BF1901D7E843B00B1BB86 /* Build configuration list for PBXNativeTarget "Calculator-redo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78BF1911D7E843B00B1BB86 /* Debug */,
+				A78BF1921D7E843B00B1BB86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A78BF1931D7E843B00B1BB86 /* Build configuration list for PBXNativeTarget "Calculator-redoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A78BF1941D7E843B00B1BB86 /* Debug */,
+				A78BF1951D7E843B00B1BB86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A78BF16B1D7E843A00B1BB86 /* Project object */;
+}
